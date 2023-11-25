@@ -1,0 +1,832 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* This is navbar */
+.navbar-brand{
+    
+    font-size: 100px;
+    
+}
+.navbar-toggler:hover .navbar-toggler-icon:hover .hotel-top-section{
+    display: none;
+}
+.nav-btn{
+    font-size: larger;
+    border: 3px solid white;
+    color: white;
+    height: 5rem;
+    width: 15rem;
+    background-color: transparent;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.nav-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* This is top section */
+.container1{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(17,18,19,0.52),
+        rgba(9, 17, 46, 0.73)),
+        url("hotel-bg.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.room-nav{
+    background-image: url("room-bg.jpg");
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.room-nav h3,.facility-nav h3,.testimonial-nav h3,.contact-nav h3{
+    color: white;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.room-nav hr,.facility-nav hr,.testimonial-nav hr,.contact-nav hr{
+    width: 50%;
+    height: 3px;
+    color: black;
+    margin-left:10% ;
+}
+.facility-nav{
+    background-image: url("facility-bg.jpg");
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial-nav{
+    background-image: url("testi.jpg");
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-nav{
+    background-image: url("contact.jpg");
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-head{
+   padding-top: 10%;
+   font-size: x-large;
+   color: white;
+   padding-left: 15%;
+}
+.top-heading{
+    color: white;
+    padding-left: 15%;
+    font-size: 70px;
+}
+.top-para{
+    color: white;
+    margin-left: 15%;
+}
+.top-btn{
+    font-size: larger;
+    border: 3px solid white;
+    height: 5rem;
+    width: 20rem;
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 2%;
+    
+}
+.top-btn:hover{
+    background-color: transparent;
+    color: white;
+}
+.about{
+    width: 100%;
+}
+
+/* This is facility section */
+
+.con2-heading{
+    text-align: center;
+    padding-top: 2%;
+}
+.con2-para{
+    text-align: center;
+    font-size: 25px;
+}
+.facility1{
+    display: flex;
+   
+}
+.parking,.wifi,.pet{
+    margin-top: 2%;
+    height: 30vh;
+    width: 20%;
+    border: 1px solid white;
+    margin-bottom: 2%;
+}
+.wifi,.parking,.pet{
+    box-shadow: 2px 2px 10px 10px rgb(207, 246, 246);
+}
+.parking{
+    margin-left: 20%;
+}
+.parking-img,.wifi-img,.pet-img{
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.parking-text,.wifi-text,.pet-text{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* This is rooms section */
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.room1,.room2,.room3,.room4,.room5,.room6{
+    width: 30%;
+    height: 35vh;
+    
+}
+.room1{
+    background-image: url("room1.jpeg");
+    margin-left: 4%;
+    background-size: cover;
+}
+.room2{
+    background-image: url("room2.jpeg");
+    margin-left: 2%;
+    background-size: cover;
+}
+.room3{
+    background-image: url("room3.jpeg");
+    margin-left: 2%;
+    background-size: cover;
+}
+.room-btn{
+    height: 5vh;
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 75%;
+    background-color: rgba(54, 71, 3, 0.831);
+    color: white;
+}
+.room1-heading,.room2-heading,.room3-heading{
+    color: white;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.semi-room1,.semi-room2,.semi-room3{
+    display:  flex;
+    flex-wrap: wrap;
+}
+.container4{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+.room4{
+    background-image: url("room4.jpeg");
+    margin-left: 4%;
+    background-size: cover;
+}
+.room5{
+    background-image: url("room5.jpeg");
+    margin-left: 2%;
+    background-size: cover;
+}
+.room6{
+    background-image: url("room6.jpeg");
+    margin-left: 2%;
+    background-size: cover;
+}
+
+/* This is secvice section */
+
+.container5{
+    display:  flex;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+.service1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 23vh;
+    border: 1px solid white;
+    margin-left: 15%;
+    box-shadow: 1px 1px 6px 6px rgb(186, 185, 185);
+}
+.service2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 23vh;
+    border: 1px solid white;
+    margin-left: 5%;
+    box-shadow: 1px 1px 6px 6px rgb(186, 185, 185);
+}
+.service-img{
+    width: 10%;
+}
+.service-text{
+    width: 90%;
+    padding-left: 6%;
+    margin-top: 4%;
+}
+.s-img{
+    position: relative;
+    margin-left: -90%;
+    height: 13vh;
+    width: 185%;
+    margin-top: 65%;
+}
+
+.container6{
+    display:  flex;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+.service3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 23vh;
+    border: 1px solid white;
+    margin-left: 15%;
+    box-shadow: 1px 1px 6px 6px rgb(186, 185, 185);
+}
+.service4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 23vh;
+    border: 1px solid white;
+    margin-left: 5%;
+    box-shadow: 1px 1px 6px 6px rgb(186, 185, 185);
+}
+.service-img{
+    width: 10%;
+}
+.service-text{
+    width: 90%;
+    padding-left: 6%;
+    margin-top: 4%;
+}
+.service-text p{
+    font-size: 15px;
+}
+.s-img{
+    position: relative;
+    margin-left: -90%;
+    height: 13vh;
+    width: 185%;
+    margin-top: 65%;
+}
+
+/* This is testimonial section */
+
+.testimonial{
+    height: 90vh;
+    width: 100%;
+    background-image: url("testimonial2.jpg");
+    background-size: cover;
+}
+.testimonial-heading{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+}
+.testimonial-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.testimonial-card1{
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+    margin-top: 2.5%;
+    margin-left: 13%;
+}
+.testimonial-card2{
+    width: 25%;
+    height: 70vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(1, 23, 12, 0.52),
+        rgba(8, 1, 23, 0.73)),
+        url("testimonial-card2.jpg");
+    background-size: cover;
+}
+.testimonial-card3{
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+    margin-top: 2.5%;
+}
+.test-img{
+    width: 30%;
+    height: 15vh;
+    margin-left: 35%;
+    margin-top: 15%;
+   
+}
+.testimonial-name{
+    text-align: center;
+    margin-top: 10%;
+}
+.testimonial-name1{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+.testimonial-para{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+    font-size: 15px;
+}
+.testimonial-para1{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    color: white;
+    font-size: 16px;
+}
+
+/* This is gallery section */
+
+.gallery-container1,.gallery-container2,.gallery-container3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5.5%;
+    margin-top: 1%;
+}
+
+.gallery-section1,.gallery-section2,.gallery-section3,.gallery-section4,.gallery-section5,.gallery-section6,.gallery-section7,.gallery-section8,.gallery-section9{
+    width: 30%;
+    height: 35vh;
+    margin-left: 1%;
+}
+.gallery-img1,.gallery-img3{
+    width: 100%;
+    height: 35vh;
+}
+.gallery-img2{
+    width: 100%;
+    height: 35vh;
+    border: 1px solid white;
+    border-radius: 50px 0px 50px 0px;
+}
+
+
+/* This is about section */
+
+.con7-heading{
+    text-align: center;
+    font-size: 60px;
+}
+.con7-para{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+
+}
+.con7-semi-para{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 18px;
+}
+.con7-img{
+    margin-left: 40%;
+    width: 8%;
+    height: 6%;
+    margin-top: 3%;
+}
+.img-name{
+    margin-left: 50%;
+    margin-top: -5%;
+    
+}
+.img-para{
+    margin-left:50% ;
+    color: rgb(163, 147, 147);
+}
+
+/* This is reservation section */
+
+.reservation{
+    background-image: url("bg1.jpg");
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 5%;
+}
+.res-heading1{
+    color: white;padding-top: 10%;text-align: center;
+}
+.res-heading2{
+color: white;padding-top: 2%;text-align: center;font-size: 40px;
+}
+.res-heading3{
+    color: white;padding-top: 2%;text-align: center;
+    
+}
+.res-heading4{
+    color: white;padding-top: 2%;text-align: center;
+}
+
+/* This is footer section */
+
+.section11{ 
+
+    padding: 2rem;
+
+  }
+  .sec11-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .map iframe {
+    
+    height: 20rem;
+    border-radius: 2rem;
+  }
+  .contact{
+    width: 25rem;
+    
+  }
+  .contact p{
+    font-size: large;
+  }
+  .line{
+    width: 25rem;
+    
+  }
+  .line p{
+    font-size: large;
+  }
+  .sec-phone p{
+    font-size: large;
+  }
+  .sec-connect p{
+    font-size: large;
+  }
+  .sec-news p{
+    font-size: large;
+  }
+  .sec11-2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    gap: 10px;
+  }
+  .soc-icon{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .new-button input{height: 3rem;
+    padding-left: 10px;
+    
+  
+  }
+  .new-button button{
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(11, 38, 11);
+    color: aliceblue;
+  
+  }
+  .copyright{
+    
+    text-align: center;
+    
+  }
+
+
+  /* This is contact form */
+  .f{
+    width: 50%;margin-left: 25%;margin-top: 5%;margin-bottom: 3%;
+  }
+  
+
+  /* This is top section */
+
+  @media screen and (max-width:600px) {
+    .top-heading{
+        color: white;
+        padding-left: 15%;
+        font-size: 30px;
+    }
+    .top-btn{
+        font-size: 15px;
+        height: 3rem;
+        width: 10rem;
+        
+    }
+    
+  }
+  /* This is facility section */
+  @media screen and (max-width:600px){
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    .facility1{
+        display: inline-block;
+    }
+    .con2-heading{
+        font-size: 30px;
+    }
+    .con2-para{
+        font-size: 15px;
+    }
+    .parking,.wifi,.pet{
+        height: 30vh;
+        width: 200%;
+        margin-left: 50%;
+    }
+    .parking-text,.wifi-text,.pet-text{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .parking-img,.wifi-img,.pet-img{
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 20%;
+    }
+  }
+
+  
+  /* This is rooms section */
+  @media screen and (max-width:600px){
+    
+    .container3{
+        display: inline-block;
+        margin-top: 2%;
+    }
+    .room1,.room2,.room3,.room4,.room5,.room6{
+        width: 150%;
+        height: 30vh;
+    }
+    .room1{
+        margin-left: 20%;
+        margin-bottom: 4%;
+    }
+    .room2{
+        margin-left: 20%;
+        margin-bottom: 4%;
+    }
+    .room3{
+        margin-left: 20%;
+    }
+    .room1-heading,.room2-heading,.room3-heading{
+        margin-top: 35%;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .container4{
+        margin-top: 2%;
+        display: inline-block;
+        margin-bottom: 4%;
+    }
+    .room4{
+        margin-left: 20%;
+        margin-bottom: 4%;
+    }
+    .room5{
+        margin-left: 20%;
+        margin-bottom: 4%;
+    }
+    .room6{
+        margin-left: 20%;
+        margin-bottom: 4%;
+    }
+    
+  }
+
+  /* This is service section */
+  @media screen and (max-width:600px){
+    .container5{
+        display:  inline-block;
+        margin-bottom: 4%;
+    }
+    .service1{
+        width: 80%;
+        height: 25vh;
+        margin-left: 15%;
+        margin-bottom: 4%;
+    }
+    .service2{
+        width: 80%;
+        height: 25vh;
+        margin-left: 15%;
+    }
+    .service-img{
+        width: 10%;
+    }
+    .container6{
+        display:  inline-block;
+        margin-bottom: 4%;
+    }
+    .service3{
+        width: 80%;
+        height: 25vh;
+        margin-left: 15%;
+        margin-bottom: 4%;
+    }
+    .service4{
+        width: 80%;
+        height: 25vh;
+        margin-left: 15%;
+    }
+    .service-img{
+        width: 10%;
+    }
+  }
+
+  
+   /* This is testimonial section */
+    @media screen and (max-width:600px) {
+    .testimonial{
+        height: 165vh;
+    }
+    .testimonial-card{
+        display: inline-block;
+    }
+    .testimonial-card1{
+        width: 80%;
+        height: 50vh;
+        margin-left: 12%;
+    }
+    .testimonial-card2{
+        width: 80%;
+        height: 50vh;
+        margin-left: 12%;
+    }
+    .testimonial-card3{
+        width: 80%;
+        height: 50vh;
+        margin-left: 12%;
+    }
+    .test-img{
+        width: 25%;
+        height: 10vh;
+    }
+    .testimonial-para{
+        font-size: 12px;
+    }
+    .testimonial-para1{
+        font-size: 12px;
+    }
+  }
+
+  /* This is gallery section */
+  @media screen and (max-width:600px) {
+    .g{
+        margin-top: 10%;
+    }
+    .gallery-container1,.gallery-container2,.gallery-container3{
+        display: inline-block;
+        
+        margin-left: 15%;
+        margin-top: 1%;
+    }
+    
+    .gallery-section1,.gallery-section2,.gallery-section3,.gallery-section4,.gallery-section5,.gallery-section6,.gallery-section7,.gallery-section8,.gallery-section9{
+        width: 80%;
+        height: 35vh;
+        margin-left: 1%;
+    }
+    .info-heading{
+        margin-top: 50%;
+    }
+    .information{
+        display: inline-block;
+        margin-top: 80%;
+        
+    }
+  }
+
+  /* This is about section */
+
+  @media screen and (max-width:600px) {
+    .con7-heading{
+        font-size: 35px;
+    }
+    .con7-para{
+        font-size: 11px;
+    
+    }
+    .con7-semi-para{
+        font-size: 11px;
+    }
+    .con7-img{
+        margin-left: 25%;
+        width: 14%;
+        height: 12%;
+        margin-top: 3%;
+    }
+    .img-name{
+        margin-left: 45%;
+        margin-top: -13%;
+        
+    }
+    .img-para{
+        margin-left:45% ;
+        color: rgb(163, 147, 147);
+    }
+  }
+
+  /* This is reservation section */
+
+  @media screen and (max-width:600px) {
+    .reservation{
+        height: 55vh;
+        margin-top: 10%;
+    }
+    .res-heading1{
+        padding-top: 30%;
+    }
+    .res-heading2{
+        font-size: 25px;
+    }
+    .res-heading3{
+        font-size: 15px;   
+    }
+    .res-heading4{
+        font-size: 25px;
+    }
+  }
+
+  /* This is footer section */
+
+  @media screen and (max-width:600px) {
+    .section-11{
+        padding: 2rem;
+    }
+    
+    .map iframe{
+        width: 20rem;
+      }
+      .sec11-1{
+        display: inline-block;
+        margin-left: 20%;
+       
+      }
+      .sec11-2{
+        display: inline-block;
+        margin-left: 23%;
+      }
+      
+  }
+
+  /* This is contact form and all page heading */
+
+  @media screen and (max-width:600px) {
+    .f{
+        width: 100%;
+        margin-left: 0%;
+        padding: 2rem;
+      }
+
+      .hotel-top-section h3{
+        display: none;
+        
+    } 
+    .room-nav hr,.facility-nav hr,.testimonial-nav hr,.contact-nav hr{
+        display: none;
+        
+    }
+    .room-nav,.facility-nav,.testimonial-nav,.contact-nav{
+        
+        height: 60vh;
+        
+    }
+  }
